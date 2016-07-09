@@ -32,6 +32,5 @@ Button.prototype.create =  function() {
 var btn1 = new Button('Hello!');
 btn1.create();
 
-var btn1 = new Button('Hello!');
-btn1.create();
+
 
