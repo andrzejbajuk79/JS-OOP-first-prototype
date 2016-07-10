@@ -17,7 +17,7 @@ console.log (warrantyCost);
 
 Telefon.prototype.printInfo = function() {
 	document.write("Marka telefonu :" + this.marka + "<br> " + "cena :" + this.cena +"<br>" + "Kolor : " + 
-		this.color + "<br>" );
+		this.color + "<br>"/* + "cena gawarncji wynosi :" + (this.cena * 0.12) + "<br>" */);
 };
 
 
