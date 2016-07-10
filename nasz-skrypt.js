@@ -10,7 +10,7 @@ var nokia = new Telefon('Nokia', 'zielony', 3250);
 
 Telefon.prototype.calculateWarrantyCost = function() {
 var warrantyCost = this.cena * 0.12;
-document.write("cena gwarancji wynosi :" + warrantyCost + " <br>");
+document.write("cena gwarancji wynosi :" + warrantyCost + " <br><br>");
 
 console.log (warrantyCost);
 };
